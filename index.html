@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thailand &amp; Singapur 2026 – Unsere Reiseplanung</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <div class="nav-logo">Thailand <span>&amp; Lion City</span></div>
+    <button class="nav-toggle" aria-label="Menü öffnen">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      <a href="index.html" class="active">Übersicht</a>
+      <a href="samui.html">Koh Samui</a>
+      <a href="phangan.html">Koh Phangan</a>
+      <a href="singapore.html">Singapur</a>
+      <a href="info.html">Praktisches</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="container">
+    <div class="hero-badge">✈️ 20.09. – 07.10.2026 · 18 Tage</div>
+    <h1>Thailand &amp; Singapur <em>2026</em></h1>
+    <p class="lead">Von Frankfurt über Singapur auf die Trauminseln Koh Samui &amp; Koh Phangan – und zum Abschluss vier Tage im glitzernden Singapur. Hier ist unser kompletter Reiseplan: Flüge, Unterkünfte, Ausflüge und alle Highlights, Tag für Tag.</p>
+    <div class="hero-actions">
+      <a href="#itinerary" class="btn btn-primary">📅 Zum Reiseplan</a>
+      <a href="#flights" class="btn btn-ghost">🛫 Flugdetails</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="num">18</div><div class="label">Tage Reise</div></div>
+      <div class="hero-stat"><div class="num">3</div><div class="label">Inseln &amp; Städte</div></div>
+      <div class="hero-stat"><div class="num">4</div><div class="label">Flüge</div></div>
+      <div class="hero-stat"><div class="num" id="countdown-num">–</div><div class="label" id="countdown-label">Tage bis Abflug</div></div>
+    </div>
+  </div>
+  <div class="scroll-cue">Scroll</div>
+</header>
+
+<!-- ROUTE OVERVIEW -->
+<div class="container">
+  <div class="route-strip reveal">
+    <div class="route-track">
+      <div class="route-stop">
+        <div class="icon">🇩🇪</div>
+        <div class="name">Frankfurt</div>
+        <div class="date">20.09.</div>
+      </div>
+      <div class="route-arrow">→</div>
+      <div class="route-stop">
+        <div class="icon">🇸🇬</div>
+        <div class="name">Singapur</div>
+        <div class="date">21.09.</div>
+      </div>
+      <div class="route-arrow">→</div>
+      <div class="route-stop">
+        <div class="icon">🏝️</div>
+        <div class="name">Koh Samui</div>
+        <div class="date">21.–25.09.</div>
+      </div>
+      <div class="route-arrow">→</div>
+      <div class="route-stop">
+        <div class="icon">🌴</div>
+        <div class="name">Koh Phangan</div>
+        <div class="date">25.–29.09.</div>
+      </div>
+      <div class="route-arrow">→</div>
+      <div class="route-stop">
+        <div class="icon">🏖️</div>
+        <div class="name">Koh Samui</div>
+        <div class="date">29.09.–03.10.</div>
+      </div>
+      <div class="route-arrow">→</div>
+      <div class="route-stop">
+        <div class="icon">🇸🇬</div>
+        <div class="name">Singapur</div>
+        <div class="date">03.–07.10.</div>
+      </div>
+      <div class="route-arrow">→</div>
+      <div class="route-stop">
+        <div class="icon">🇩🇪</div>
+        <div class="name">Frankfurt</div>
+        <div class="date">07.10.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DESTINATIONS TEASER -->
+<section>
+  <div class="container">
+    <span class="eyebrow" style="display:block; text-align:center;">Unsere Stationen</span>
+    <h2 class="section-title">Drei Welten, eine Reise</h2>
+    <p class="section-sub">Von ruhigen Stränden im Norden Koh Samuis über das pulsierende Inselleben auf Koh Phangan bis zur Hochglanz-Skyline Singapurs – jede Station hat ihre eigene Seite mit Unterkunft, Ausflügen und Tipps.</p>
+    <div class="grid grid-3">
+      <a href="samui.html" class="card reveal">
+        <img class="card-image-photo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Koh_Samui_Lipa_Noi2.jpg/500px-Koh_Samui_Lipa_Noi2.jpg" alt="Strand auf Koh Samui" loading="lazy">
+        <h3>Koh Samui</h3>
+        <p>8 Nächte zwischen Bophut im Norden und Chaweng im Osten. Tempel, Wasserfälle, Aussichtspunkte und der Tagesausflug nach Ang Thong.</p>
+        <ul>
+          <li>21.–25.09. &amp; 29.09.–03.10.</li>
+          <li>Big Buddha, Fisherman's Village</li>
+          <li>Ang Thong Marine Park</li>
+        </ul>
+      </a>
+      <a href="phangan.html" class="card reveal">
+        <img class="card-image-photo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Koh_Phangan01.jpg/500px-Koh_Phangan01.jpg" alt="Strand auf Koh Phangan" loading="lazy">
+        <h3>Koh Phangan</h3>
+        <p>4 Nächte auf der Inselnachbarin – inklusive Full Moon Party am 26.09.! Traumstrände, Wasserfälle und Sonnenuntergänge an der Westküste.</p>
+        <ul>
+          <li>25.–29.09.</li>
+          <li>Full Moon Party in Haad Rin</li>
+          <li>Mae Haad &amp; Koh Ma Sandbank</li>
+        </ul>
+      </a>
+      <a href="singapore.html" class="card reveal">
+        <img class="card-image-photo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Marina_Bay_Sands_%28I%29.jpg/500px-Marina_Bay_Sands_%28I%29.jpg" alt="Marina Bay Sands in Singapur" loading="lazy">
+        <h3>Singapur</h3>
+        <p>4 Tage Großstadt-Finale: Marina Bay, Gardens by the Bay, Sentosa und kulinarische Streifzüge durch Chinatown &amp; Little India.</p>
+        <ul>
+          <li>03.–07.10. &amp; 20.–21.09.</li>
+          <li>Marina Bay Sands &amp; Skyline</li>
+          <li>Hawker Center Food-Touren</li>
+        </ul>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FLIGHTS -->
+<section id="flights" class="section-alt">
+  <div class="container">
+    <span class="eyebrow" style="display:block; text-align:center;">Bereits gebucht</span>
+    <h2 class="section-title">Unsere Flüge</h2>
+    <p class="section-sub">Alle vier Flüge mit Singapore Airlines (zwei davon als Codeshare mit Scoot). Zeiten lokal, bitte näher am Reisedatum nochmal über die Airline-App bestätigen.</p>
+
+    <div class="grid grid-2">
+
+      <div class="flight-card reveal">
+        <div class="flight-head">
+          <div class="flight-num">SQ 325</div>
+          <div class="flight-date">Sonntag, 20.09.2026</div>
+        </div>
+        <div class="flight-body">
+          <div class="flight-route">
+            <div class="flight-point">
+              <div class="time">21:40</div>
+              <div class="city">Frankfurt</div>
+              <div class="airport">FRA · Terminal 1 (MESZ)</div>
+            </div>
+            <div class="flight-mid">
+              <div class="duration">12 Std. 40 Min · nonstop</div>
+              <div class="line"></div>
+              <div class="duration">Airbus A380</div>
+            </div>
+            <div class="flight-point" style="text-align:right;">
+              <div class="time">16:20<sup style="font-size:0.9rem;">+1</sup></div>
+              <div class="city">Singapur</div>
+              <div class="airport">SIN · Changi T1</div>
+            </div>
+          </div>
+          <div class="flight-meta">
+            <span><strong>Ankunft:</strong> Montag, 21.09. (Lokalzeit Singapur, SGT)</span>
+            <span class="tag">Nachtflug</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flight-card reveal">
+        <div class="flight-head">
+          <div class="flight-num">SQ 8586</div>
+          <div class="flight-date">Montag, 21.09.2026</div>
+        </div>
+        <div class="flight-body">
+          <div class="flight-route">
+            <div class="flight-point">
+              <div class="time">17:55</div>
+              <div class="city">Singapur</div>
+              <div class="airport">SIN · Changi T1 (SGT)</div>
+            </div>
+            <div class="flight-mid">
+              <div class="duration">ca. 1 Std. 55 Min</div>
+              <div class="line"></div>
+              <div class="duration">Codeshare: Scoot TR648</div>
+            </div>
+            <div class="flight-point" style="text-align:right;">
+              <div class="time">18:50</div>
+              <div class="city">Koh Samui</div>
+              <div class="airport">USM (Lokalzeit Thailand, ICT)</div>
+            </div>
+          </div>
+          <div class="flight-meta">
+            <span><strong>Embraer 190-E2</strong></span>
+            <span class="tag ok">✅ ca. 1 Std. 35 Min. Umsteigezeit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flight-card reveal">
+        <div class="flight-head">
+          <div class="flight-num">SQ 8341</div>
+          <div class="flight-date">Samstag, 03.10.2026</div>
+        </div>
+        <div class="flight-body">
+          <div class="flight-route">
+            <div class="flight-point">
+              <div class="time">08:40</div>
+              <div class="city">Koh Samui</div>
+              <div class="airport">USM (Lokalzeit Thailand, ICT)</div>
+            </div>
+            <div class="flight-mid">
+              <div class="duration">ca. 1 Std. 55 Min.</div>
+              <div class="line"></div>
+              <div class="duration">Codeshare: Scoot TR641</div>
+            </div>
+            <div class="flight-point" style="text-align:right;">
+              <div class="time">11:35</div>
+              <div class="city">Singapur</div>
+              <div class="airport">SIN · Changi T1 (SGT)</div>
+            </div>
+          </div>
+          <div class="flight-meta">
+            <span><strong>Ankunft: Vormittag, Lokalzeit Singapur (SGT)</strong></span>
+            <span class="tag ok">🎉 Fast ein ganzer Tag in Singapur übrig!</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flight-card reveal">
+        <div class="flight-head">
+          <div class="flight-num">SQ 326</div>
+          <div class="flight-date">Mittwoch, 07.10.2026</div>
+        </div>
+        <div class="flight-body">
+          <div class="flight-route">
+            <div class="flight-point">
+              <div class="time">12:35</div>
+              <div class="city">Singapur</div>
+              <div class="airport">SIN · Changi T3 (SGT)</div>
+            </div>
+            <div class="flight-mid">
+              <div class="duration">13 Std. 5 Min · nonstop</div>
+              <div class="line"></div>
+              <div class="duration">Airbus A380</div>
+            </div>
+            <div class="flight-point" style="text-align:right;">
+              <div class="time">19:40</div>
+              <div class="city">Frankfurt</div>
+              <div class="airport">FRA · Terminal 1 (MESZ)</div>
+            </div>
+          </div>
+          <div class="flight-meta">
+            <span><strong>Ankunft:</strong> Mittwoch, 07.10. abends (deutsche Zeit)</span>
+            <span class="tag">Tagflug</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="tip-box reveal" style="margin-top:32px;">
+      <div class="emoji">🌐</div>
+      <div>
+        <h4>Achtung Zeitzonen: Singapur ist Thailand 1 Std. voraus</h4>
+        <p>Alle Zeiten oben sind <strong>Ortszeiten</strong> des jeweiligen Abflug-/Ankunftsorts (Deutschland MESZ = UTC+2, Singapur SGT = UTC+8, Thailand ICT = UTC+7). Am 21.09. landet SQ325 um 16:20 Uhr Ortszeit in Singapur, der Weiterflug SQ8586 startet um 17:55 Uhr – das sind ca. <strong>1 Std. 35 Min.</strong> Umsteigezeit, beide Flüge in Terminal 1. Das reicht für Einreise/Transit-Kontrolle in Singapur entspannt aus, dennoch Handgepäck griffbereit halten und zügig zum Gate gehen. Auf dem Rückweg ist es umgekehrt: SQ8341 startet bereits um 08:40 Uhr thailändischer Ortszeit auf Koh Samui und landet um 11:35 Uhr Ortszeit in Singapur – die reine Flugzeit beträgt nur knapp 2 Stunden, gefühlt „verlieren" wir die Stunde wieder. Dafür bleibt uns am Ankunftstag noch fast der ganze Nachmittag und Abend für Singapur!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ITINERARY -->
+<section id="itinerary">
+  <div class="container">
+    <span class="eyebrow" style="display:block; text-align:center;">Tag für Tag</span>
+    <h2 class="section-title">Der komplette Reiseplan</h2>
+    <p class="section-sub">Die Kurzübersicht über alle 18 Tage. Detaillierte Infos zu Unterkünften, Ausflügen und Sehenswürdigkeiten findet ihr auf den jeweiligen Unterseiten.</p>
+
+    <div class="timeline">
+
+      <div class="timeline-item day-header reveal">
+        <div class="dot">1</div>
+        <div class="body">
+          <div class="when">So · 20.09.2026</div>
+          <h3>Abflug nach Singapur ✈️</h3>
+          <div class="place">Frankfurt (FRA)</div>
+          <p>Abends Check-in am Flughafen Frankfurt, 21:40 Uhr Abflug mit SQ325 (A380) nonstop nach Singapur. Nachtflug – am besten früh schlafen oder einen Film-Marathon einplanen.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item day-header reveal">
+        <div class="dot">2</div>
+        <div class="body">
+          <div class="when">Mo · 21.09.2026</div>
+          <h3>Ankunft Singapur &amp; Weiterflug nach Koh Samui 🏝️</h3>
+          <div class="place">Singapur → Koh Samui</div>
+          <p>Landung in Singapur um 16:20 Uhr Ortszeit, Weiterflug mit SQ8586 um 17:55 Uhr (ca. 1 Std. 35 Min. Umsteigezeit) nach Koh Samui – Ankunft 18:50 Uhr thailändischer Ortszeit (Thailand liegt eine Stunde hinter Singapur, daher dauert der Flug gefühlt nur 55 Minuten). Transfer ins Hotel nach Bophut, entspannter Einstand mit Abendessen am Fisherman's Village.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="dot">3</div>
+        <div class="when">Di · 22.09.2026</div>
+        <h3>Ankommen &amp; Bophut entdecken</h3>
+        <div class="place">Koh Samui – Bophut</div>
+        <p>Erster ganzer Tag: Strand vor der Tür, Fisherman's Village erkunden, gemütliches Frühstück und in den Urlaubsmodus wechseln. Details auf der Koh-Samui-Seite.</p>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="dot">4</div>
+        <div class="when">Mi · 23.09.2026</div>
+        <h3>Big Buddha &amp; Wat Plai Laem</h3>
+        <div class="place">Koh Samui – Norden</div>
+        <p>Tempeltour zu Wat Phra Yai (Big Buddha) und dem farbenfrohen Wat Plai Laem, danach Entspannung am Choeng Mon Beach.</p>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="dot">5</div>
+        <div class="when">Do · 24.09.2026</div>
+        <h3>Wasserfälle &amp; Aussichtspunkte</h3>
+        <div class="place">Koh Samui – Inland</div>
+        <p>Ausflug zu den Na-Muang-Wasserfällen und zum Secret Buddha Garden hoch in den Bergen – inklusive grandiosem Blick über die Insel.</p>
+      </div>
+
+      <div class="timeline-item day-header reveal">
+        <div class="dot">6</div>
+        <div class="body">
+          <div class="when">Fr · 25.09.2026</div>
+          <h3>Fähre nach Koh Phangan ⛴️</h3>
+          <div class="place">Koh Samui → Koh Phangan</div>
+          <p>Mit dem Gepäck zum Pier (Mae Nam oder Big Buddha Pier) und mit der Fähre in ca. 30 Minuten nach Thong Sala auf Koh Phangan. Check-in, Insel erkunden, Sonnenuntergang an der Westküste.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item day-header reveal">
+        <div class="dot">7</div>
+        <div class="body">
+          <div class="when">Sa · 26.09.2026</div>
+          <h3>🌕 Full Moon Party in Haad Rin</h3>
+          <div class="place">Koh Phangan – Haad Rin</div>
+          <p>Tagsüber entspannen und Energie sammeln, abends die legendäre Full-Moon-Party am Sunrise Beach in Haad Rin erleben – eine der größten Strandpartys der Welt.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="dot">8</div>
+        <div class="when">So · 27.09.2026</div>
+        <h3>Erholungstag &amp; Phaeng-Wasserfall</h3>
+        <div class="place">Koh Phangan</div>
+        <p>Ruhiger Tag nach der Party: Ausschlafen, Wasserfall-Wanderung zum Phaeng Waterfall, entspannen am Pool oder Strand.</p>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="dot">9</div>
+        <div class="when">Mo · 28.09.2026</div>
+        <h3>Mae Haad &amp; Koh Ma Sandbank</h3>
+        <div class="place">Koh Phangan – Westküste</div>
+        <p>Schnorcheln an der Sandbank zwischen Mae Haad und der kleinen Insel Koh Ma, danach Sonnenuntergang mit Cocktail an der Amsterdam Bar.</p>
+      </div>
+
+      <div class="timeline-item day-header reveal">
+        <div class="dot">10</div>
+        <div class="body">
+          <div class="when">Di · 29.09.2026</div>
+          <h3>Zurück nach Koh Samui ⛴️</h3>
+          <div class="place">Koh Phangan → Koh Samui (Chaweng)</div>
+          <p>Fähre zurück nach Koh Samui, Wechsel der Unterkunft an die belebte Ostküste nach Chaweng – beste Lage für die letzten Tage mit Restaurants, Bars und feinem Sandstrand.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item day-header reveal">
+        <div class="dot">11</div>
+        <div class="body">
+          <div class="when">Mi · 30.09.2026</div>
+          <h3>Tagesausflug Ang Thong Marine Park 🚤</h3>
+          <div class="place">Mu Ko Ang Thong Nationalpark</div>
+          <p>Ganztägige Bootstour durch den Ang-Thong-Archipel: Schnorcheln in türkisem Wasser, Kajaktour und Aufstieg zum Aussichtspunkt mit Blick auf den Emerald Lake.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="dot">12</div>
+        <div class="when">Do · 01.10.2026</div>
+        <h3>Chaweng Beach &amp; Lad Koh Viewpoint</h3>
+        <div class="place">Koh Samui – Chaweng</div>
+        <p>Strandtag in Chaweng, Spaziergang zum Lad Koh Viewpoint, abends durch die Chaweng Walking Street bummeln.</p>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="dot">13</div>
+        <div class="when">Fr · 02.10.2026</div>
+        <h3>Entspannen &amp; Abschied von Samui</h3>
+        <div class="place">Koh Samui – Chaweng</div>
+        <p>Letzter ruhiger Tag: Spa-Behandlung, Pool, letzte Mitbringsel besorgen und ein Abschiedsdinner mit Meerblick.</p>
+      </div>
+
+      <div class="timeline-item day-header reveal">
+        <div class="dot">14</div>
+        <div class="body">
+          <div class="when">Sa · 03.10.2026</div>
+          <h3>Rückflug nach Singapur ✈️</h3>
+          <div class="place">Koh Samui → Singapur</div>
+          <p>Früher Check-out und Transfer zum Flughafen USM. Abflug 08:40 Uhr mit SQ8341, Landung in Singapur bereits um 11:35 Uhr Ortszeit. Nach dem Transfer ins Hotel an der Orchard Road bleibt der ganze Nachmittag und Abend für Singapur – zum Beispiel ein erster Bummel über die Orchard Road und abends die Night Safari im Mandai Wildlife Reserve.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="dot">15</div>
+        <div class="when">So · 04.10.2026</div>
+        <h3>Marina Bay &amp; Gardens by the Bay</h3>
+        <div class="place">Singapur</div>
+        <p>Marina Bay Sands SkyPark, Merlion Park und abends die Lichtshow in den Gardens by the Bay zwischen den Supertrees.</p>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="dot">16</div>
+        <div class="when">Mo · 05.10.2026</div>
+        <h3>Sentosa Island</h3>
+        <div class="place">Singapur – Sentosa</div>
+        <p>Per Cable Car oder Sentosa Express auf die Vergnügungsinsel: Strände, S.E.A. Aquarium und nach Lust und Laune Universal Studios.</p>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="dot">17</div>
+        <div class="when">Di · 06.10.2026</div>
+        <h3>Chinatown, Little India &amp; Kampong Glam</h3>
+        <div class="place">Singapur – Stadtviertel</div>
+        <p>Streifzug durch die multikulturellen Viertel, Tempel, Street Art und ausgiebige Hawker-Center-Food-Tour.</p>
+      </div>
+
+      <div class="timeline-item day-header reveal">
+        <div class="dot">18</div>
+        <div class="body">
+          <div class="when">Mi · 07.10.2026</div>
+          <h3>Botanic Gardens &amp; Rückflug 🏠</h3>
+          <div class="place">Singapur → Frankfurt</div>
+          <p>Letzter Vormittag im Singapore Botanic Garden (UNESCO-Welterbe), Mittagessen, dann zum Flughafen. Abflug 12:35 Uhr mit SQ326, Landung in Frankfurt um 19:40 Uhr.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section-deep">
+  <div class="container" style="text-align:center;">
+    <h2 class="section-title">Bereit für den Abflug?</h2>
+    <p class="section-sub" style="color:rgba(255,255,255,0.78);">Alle Details zu Unterkünften, Ausflügen und praktischen Infos findet ihr auf den nächsten Seiten.</p>
+    <div class="hero-actions" style="justify-content:center;">
+      <a href="samui.html" class="btn btn-primary">🏝️ Koh Samui</a>
+      <a href="phangan.html" class="btn btn-ghost">🌴 Koh Phangan</a>
+      <a href="singapore.html" class="btn btn-ghost">🌆 Singapur</a>
+      <a href="info.html" class="btn btn-ghost">🧳 Praktische Infos</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-links">
+      <a href="index.html">Übersicht</a>
+      <a href="samui.html">Koh Samui</a>
+      <a href="phangan.html">Koh Phangan</a>
+      <a href="singapore.html">Singapur</a>
+      <a href="info.html">Praktisches</a>
+    </div>
+    <p>Geplant mit <span class="heart">♥</span> für unsere Reise · 20.09. – 07.10.2026</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
